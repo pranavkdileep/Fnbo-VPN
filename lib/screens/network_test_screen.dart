@@ -78,6 +78,7 @@ class NetworkTestScreen extends StatelessWidget {
                       subtitle: ipData.value.timezone,
                       icon: Icon(CupertinoIcons.time, color: Colors.green))),
             ]),
+            
       ),
     );
   }
