@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
               bottom: mq.height * .15,
               width: mq.width,
               child: Text(
-                'MADE IN INDIA WITH ❤️',
+                'MADE BY PRANAV K DILEEP WITH ❤️',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Theme.of(context).lightText, letterSpacing: 1),
