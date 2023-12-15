@@ -21,7 +21,7 @@ Future<void> main() async {
   await Firebase.initializeApp();
 
   //initializing remote config
-  await Config.initConfig();
+  
 
   await Pref.initializeHive();
 

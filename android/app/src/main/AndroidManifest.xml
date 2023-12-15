@@ -13,14 +13,14 @@
     
     <application
         android:name="${applicationName}"
-        android:label="Free VPN"
+        android:label="Fibo VPN"
         android:icon="@mipmap/ic_launcher"
         tools:ignore="AllowBackup">
         
         <!-- For Ads -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-4406045222387150~1331393386"/>
         
         <activity
             android:name=".MainActivity"
