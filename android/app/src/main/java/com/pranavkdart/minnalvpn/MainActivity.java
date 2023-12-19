@@ -1,4 +1,4 @@
-package com.pranavkd.fvpn;
+package com.pranavkdart.minnalvpn;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

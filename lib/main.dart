@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Fambo Vpn',
+      title: 'Minnal Vpn',
       home: SplashScreen(),
 
       //theme

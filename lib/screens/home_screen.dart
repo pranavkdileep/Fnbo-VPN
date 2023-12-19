@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
       //app bar
       appBar: AppBar(
         leading: Icon(CupertinoIcons.home),
-        title: Text('Fimbo VPN'),
+        title: Text('Minnal VPN'),
         actions: [
           IconButton(
               onPressed: () {

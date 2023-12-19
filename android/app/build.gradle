@@ -27,15 +27,24 @@ apply plugin: 'com.google.gms.google-services'
 // END: FlutterFire Configuration
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+
+
 android {
     compileSdkVersion 33
-
+    signingConfigs {
+        release {
+            storeFile file("pranavkd.jks")
+            storePassword "pranavkd.mlA1!"
+            keyAlias "key0"
+            keyPassword "pranavkd.mlA1!"
+        }
+    }
     lintOptions {
         disable 'InvalidPackage'
     }
 
     defaultConfig {
-        applicationId "com.pranavkd.fvpn"
+        applicationId "com.pranavkdart.minnalvpn"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
